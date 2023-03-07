@@ -12,6 +12,10 @@ font-family: 'Staatliches', cursive;
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: #E5E5E5;
+}
+
 .header-container {
     width: 750px;
     padding-top: 140px;
@@ -40,4 +44,118 @@ header::before{
     width: 100%;
     height: 436px;
     background: #535971;
+}
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    border-radius: 8px 8px 0 0;
+    background: #fff;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+}
+
+fieldset .line {
+    content: '';
+    border: 1px solid #E6E6F0;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+    margin-bottom: 19px;
+}
+
+.input-wrapper label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+}
+
+.input-wrapper label span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+    margin-left: 9px;
+}
+
+.input-wrapper input {
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+    min-height: 56px;
+    padding: 0 15px;
+}
+
+.personal-1line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    margin: 0;
+}
+
+fieldset h3 {
+    font-family: 'Staatliches', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+    margin-bottom: 8px;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 32px;
+}
+
+
+/*.first-mentorship input {
+
+}*/
+
+.btn-section{
+    width: 750px;
+    margin: 0 auto;
+    background: #535971;
+    border-radius: 0px 0px 8px 8px;
+    padding: 52px 72px;
+    text-align: center;
+    margin-bottom: 360px;
+}
+
+.btn-section input{
+    width: 100%;
+    background: #FF5374;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 15px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-section input:hover{
+    background: #e64767;
 }
